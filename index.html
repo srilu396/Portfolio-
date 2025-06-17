@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nagulapalli Sri Vijaya Lakshmi - Portfolio 🌟</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-br from-gray-100 to-blue-100 dark:from-gray-900 dark:to-gray-800 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+  <!-- Navbar -->
+  <nav class="fixed w-full bg-white dark:bg-gray-900 shadow-md z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="#home" class="text-2xl font-bold text-blue-600 dark:text-blue-400">Sreelu</a>
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex space-x-6 items-center">
+        <a href="#home" class="hover:text-blue-600 dark:hover:text-blue-400">Home</a>
+        <a href="#about" class="hover:text-blue-600 dark:hover:text-blue-400">About</a>
+        <a href="#skills" class="hover:text-blue-600 dark:hover:text-blue-400">Skills</a>
+        <a href="#projects" class="hover:text-blue-600 dark:hover:text-blue-400">Projects</a>
+        <a href="#internships" class="hover:text-blue-600 dark:hover:text-blue-400">Internships</a>
+        <a href="#certifications" class="hover:text-blue-600 dark:hover:text-blue-400">Certifications</a>
+        <a href="#contact" class="hover:text-blue-600 dark:hover:text-blue-400">Contact</a>
+        <a href="resume.pdf" target="_blank" class="hover:text-blue-600 dark:hover:text-blue-400">Resume</a>
+        <button id="theme-toggle" class="focus:outline-none">
+          <i class="fas fa-moon text-xl"></i>
+        </button>
+      </div>
+      <!-- Hamburger Icon for Mobile -->
+      <button id="hamburger" class="md:hidden focus:outline-none">
+        <i class="fas fa-bars text-xl"></i>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white dark:bg-gray-900 w-full absolute top-16 left-0 shadow-md">
+      <div class="flex flex-col items-center space-y-4 py-4">
+        <a href="#home" class="hover:text-blue-600 dark:hover:text-blue-400 nav-link">Home</a>
+        <a href="#about" class="hover:text-blue-600 dark:hover:text-blue-400 nav-link">About</a>
+        <a href="#skills" class="hover:text-blue-600 dark:hover:text-blue-400 nav-link">Skills</a>
+        <a href="#projects" class="hover:text-blue-600 dark:hover:text-blue-400 nav-link">Projects</a>
+        <a href="#internships" class="hover:text-blue-600 dark:hover:text-blue-400 nav-link">Internships</a>
+        <a href="#certifications" class="hover:text-blue-600 dark:hover:text-blue-400 nav-link">Certifications</a>
+        <a href="#contact" class="hover:text-blue-600 dark:hover:text-blue-400 nav-link">Contact</a>
+        <a href="resume.pdf" target="_blank" class="hover:text-blue-600 dark:hover:text-blue-400 nav-link">Resume</a>
+        <button id="theme-toggle-mobile" class="focus:outline-none">
+          <i class="fas fa-moon text-xl"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section (Home) -->
+  <section id="home" class="min-h-screen flex items-center justify-center text-center pt-16">
+    <div data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="ease-in-out-back">
+      <h1 class="text-5xl md:text-7xl font-bold font-cursive mb-4">Hello, I'm <span class="text-blue-600 dark:text-blue-400">Nagulapalli Sri Vijaya Lakshmi</span> 👋</h1>
+      <p id="tagline" class="text-xl md:text-2xl font-cursive mb-6">Aspiring Data Analyst | Frontend Developer | Passionate Learner 🌟</p>
+      <a href="#projects" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition transform hover:scale-105">View My Work 🚀</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-cursive font-bold mb-10" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out-back">About Me 🌟</h2>
+      <div class="flex flex-col md:flex-row items-center">
+        <img src="images/profile.jpg" alt="Nagulapalli Sri Vijaya Lakshmi" class="w-48 h-48 rounded-full shadow-lg mb-6 md:mb-0 md:mr-10 object-cover transform hover:bounce-rotate transition duration-700" data-aos="slide-left" data-aos-delay="200" data-aos-easing="ease-in-out-back">
+        <div class="text-left" data-aos="slide-right" data-aos-delay="400" data-aos-easing="ease-in-out-back">
+          <p class="text-lg font-cursive mb-4" data-aos="fade-in-up" data-aos-delay="600">I’m Nagulapalli Sri Vijaya Lakshmi, a dedicated B.Tech student in Artificial Intelligence and Data Science at KITE Women’s Engineering College, with a CGPA of 8.5. I’m passionate about leveraging data to solve real-world problems through data analysis, machine learning, and frontend development. My journey in tech has been fueled by hands-on experience in Python, Java, and web technologies like HTML, CSS, and JavaScript, along with a knack for building AI-driven solutions. I’ve completed multiple internships and projects that have honed my skills in data science, full-stack development, and open-source collaboration. 📚💻</p>
+          <p class="text-lg font-cursive" data-aos="fade-in-up" data-aos-delay="800">I take pride in my achievements, having secured top ranks in hackathons and coding competitions, which have strengthened my problem-solving skills. I’m a proactive leader, often taking the initiative to guide my peers in group projects, and I thrive in collaborative environments. My goal is to become a skilled data scientist and developer, contributing to innovative tech solutions that make a global impact. I’m committed to continuous learning, always exploring new tools, frameworks, and methodologies to stay ahead in the ever-evolving tech landscape. 🚀🌍</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-gray-200 dark:bg-gray-800">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-cursive font-bold mb-10" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out-back">Skills 🛠️</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="skill-card p-6 bg-white dark:bg-gray-900 rounded-lg shadow-md hover:bounce-rotate transition" data-aos="slide-right" data-aos-delay="200" data-aos-easing="ease-in-out-back">
+          <i class="fab fa-python text-4xl text-blue-500 mb-4"></i>
+          <p class="font-cursive">Python</p>
+          <div class="progress-bar mt-2 h-2 bg-gray-300 rounded-full">
+            <div class="progress bg-blue-500 h-full rounded-full" style="width: 85%;"></div>
+          </div>
+        </div>
+        <div class="skill-card p-6 bg-white dark:bg-gray-900 rounded-lg shadow-md hover:bounce-rotate transition" data-aos="slide-right" data-aos-delay="400" data-aos-easing="ease-in-out-back">
+          <i class="fab fa-java text-4xl text-green-500 mb-4"></i>
+          <p class="font-cursive">Java</p>
+          <div class="progress-bar mt-2 h-2 bg-gray-300 rounded-full">
+            <div class="progress bg-green-500 h-full rounded-full" style="width: 70%;"></div>
+          </div>
+        </div>
+        <div class="skill-card p-6 bg-white dark:bg-gray-900 rounded-lg shadow-md hover:bounce-rotate transition" data-aos="slide-right" data-aos-delay="600" data-aos-easing="ease-in-out-back">
+          <i class="fab fa-html5 text-4xl text-red-500 mb-4"></i>
+          <p class="font-cursive">HTML5/CSS/JS</p>
+          <div class="progress-bar mt-2 h-2 bg-gray-300 rounded-full">
+            <div class="progress bg-red-500 h-full rounded-full" style="width: 75%;"></div>
+          </div>
+        </div>
+        <div class="skill-card p-6 bg-white dark:bg-gray-900 rounded-lg shadow-md hover:bounce-rotate transition" data-aos="slide-right" data-aos-delay="800" data-aos-easing="ease-in-out-back">
+          <i class="fas fa-brain text-4xl text-purple-500 mb-4"></i>
+          <p class="font-cursive">Machine Learning</p>
+          <div class="progress-bar mt-2 h-2 bg-gray-300 rounded-full">
+            <div class="progress bg-purple-500 h-full rounded-full" style="width: 70%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-cursive font-bold mb-10" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out-back">Projects 📂</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="project-card bg-white dark:bg-gray-900 rounded-lg shadow-lg overflow-hidden hover:bounce-rotate transition hover:pulse-glow" data-aos="slide-up" data-aos-delay="200" data-aos-easing="ease-in-out-back">
+          <img src="images/project1.gif" alt="Stock Price Prediction" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <i class="fas fa-chart-line text-4xl text-blue-600 dark:text-blue-400 mb-4 fade-in-scale"></i>
+            <h3 class="text-xl font-cursive font-bold mb-2">InvestAI – Stock Price Prediction Web App 📈</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-4">A web app for predicting stock prices with real-time data, dynamic graphs, and QR codes for sharing results. Perfect for investment decisions! 💰📊</p>
+            <div class="flex space-x-4">
+              <a href="https://www.linkedin.com/in/sri-vijaya-lakshmi-nagulapalli-15a63a288/recent-activity/all/" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Live Demo 🌐</a>
+              <a href="https://github.com/srilu396/Invest-AI" class="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-700 transition">GitHub 🐙</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card bg-white dark:bg-gray-900 rounded-lg shadow-lg overflow-hidden hover:bounce-rotate transition hover:pulse-glow" data-aos="slide-up" data-aos-delay="400" data-aos-easing="ease-in-out-back">
+          <img src="images/project2.gif" alt="AI Weather Predictor" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <i class="fas fa-cloud-sun text-4xl text-yellow-500 dark:text-yellow-400 mb-4 fade-in-scale"></i>
+            <h3 class="text-xl font-cursive font-bold mb-2">OmniGenAI – All-in-One AI Generator 🧠</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-4">A multimodal AI platform for text, image, video, and audio generation, including summarization, translation, and speech recognition. Optimized for 8GB RAM laptops! 🤖✨</p>
+            <div class="flex space-x-4">
+              <a href="https://www.linkedin.com/feed/update/urn:li:activity:7313192985876185088/" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Live Demo 🌐</a>
+              <a href="https://github.com/srilu396/OmniGenAI_TSP_4.0_Applied_AI.git" class="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-700 transition">GitHub 🐙</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card bg-white dark:bg-gray-900 rounded-lg shadow-lg overflow-hidden hover:bounce-rotate transition hover:pulse-glow" data-aos="slide-up" data-aos-delay="1000" data-aos-easing="ease-in-out-back">
+          <img src="images/project3.gif" alt="InvestAI" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <i class="fas fa-chart-bar text-4xl text-blue-600 dark:text-blue-400 mb-4 fade-in-scale"></i>
+            <h3 class="text-xl font-cursive font-bold mb-2">Blood Donation Management System 🩸</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-4">A full-stack app to manage blood donation requests and donor registrations, with real-time blood group availability and an admin dashboard. ❤️💉</p>
+            <div class="flex space-x-4">
+              <a href="https://www.linkedin.com/posts/sri-vijaya-lakshmi-nagulapalli-15a63a288_blooddonation-machinelearning-backenddeveloper-activity-7340756879104466946-2IpL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEXcf1YBKe5DG8IC1mbhQ1UCN8T93NQWKdQ" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Live Demo 🌐</a>
+              <a href="https://github.com/srilu396/Blood_donation-.git" class="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-700 transition">GitHub 🐙</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Internships Section -->
+  <section id="internships" class="py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-cursive font-bold mb-10" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out-back">Internships 💼</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="intern-card w-full bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-gray-800 rounded-xl shadow-lg p-6 hover:flip-and-reveal transition-transform duration-500" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out-back">
+          <div class="p-6">
+            <img src="images/cert1.jpg" alt="FMML Trainer Intern at IIT Hyderabad" class="w-full h-56 object-contain rounded border-4 border-gradient mb-4">
+            <h3 class="text-xl font-cursive font-bold mb-2">FMML Trainer Intern 🧑‍🏫</h3>
+            <p class="text-gray-600 dark:text-gray-300 font-semibold mb-2">IIT Hyderabad | Duration: [Add your internship month & year]</p>
+            <p class="text-gray-600 dark:text-gray-300 font-semibold mb-2">Role: Machine Learning Intern</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">Selected as a participant in the Foundations of Modern Machine Learning (FMML) program organized by IIT Hyderabad. Gained a strong foundation in supervised and unsupervised learning techniques, evaluation metrics, and real-world data modeling. 🌟</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Built a Sentiment Analysis project using Natural Language Processing techniques.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Learned to implement algorithms from scratch and optimize models.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Worked with datasets using Python, NumPy, pandas, and scikit-learn.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm font-bold">Skills Gained: ML algorithms, NLP, Python, Model Evaluation</p>
+          </div>
+        </div>
+        <div class="intern-card w-full bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-gray-800 rounded-xl shadow-lg p-6 hover:flip-and-reveal transition-transform duration-500" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out-back">
+          <div class="p-6">
+            <img src="images/intern2.jpg" alt="AI & ML Intern at APSSDC" class="w-full h-56 object-contain rounded border-4 border-gradient mb-4">
+            <h3 class="text-xl font-cursive font-bold mb-2">AI & ML Intern 🤖</h3>
+            <p class="text-gray-600 dark:text-gray-300 font-semibold mb-2">APSSDC | Duration: [Add your internship month & year]</p>
+            <p class="text-gray-600 dark:text-gray-300 font-semibold mb-2">Role: AI/ML Intern</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">Under the Andhra Pradesh State Skill Development Corporation (APSSDC), completed an intensive internship focused on Artificial Intelligence and Machine Learning. 🧠</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Learned about supervised and unsupervised ML algorithms, deep learning, and neural networks.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Implemented projects using real datasets for prediction and classification.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Explored key tools like TensorFlow, pandas, NumPy, and matplotlib.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm font-bold">Skills Gained: Deep Learning, ML models, Neural Networks, Python libraries</p>
+          </div>
+        </div>
+        <div class="intern-card w-full bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-gray-800 rounded-xl shadow-lg p-6 hover:flip-and-reveal transition-transform duration-500" data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-in-out-back">
+          <div class="p-6">
+            <img src="images/intern3.jpg" alt="SWECHA Intern at IIIT Hyderabad" class="w-full h-56 object-contain rounded border-4 border-gradient mb-4">
+            <h3 class="text-xl font-cursive font-bold mb-2">SWECHA Intern 💻</h3>
+            <p class="text-gray-600 dark:text-gray-300 font-semibold mb-2">IIIT Hyderabad | Duration: [Add your internship month & year]</p>
+            <p class="text-gray-600 dark:text-gray-300 font-semibold mb-2">Role: Open Source Software Intern</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">Participated in the SWECHA Free Software Internship Program conducted by IIIT Hyderabad. This internship was focused on open-source development, software freedom, and collaborative project building. 🌍</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Contributed to community projects that promote free software awareness.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Explored the basics of Linux, version control with Git, and open tech tools.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Understood the importance of tech for social good.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm font-bold">Skills Gained: Linux, Git, Open Source Collaboration, Teamwork</p>
+          </div>
+        </div>
+        <div class="intern-card w-full bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-gray-800 rounded-xl shadow-lg p-6 hover:flip-and-reveal transition-transform duration-500" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out-back">
+          <div class="p-6">
+            <img src="images/intern4.jpg" alt="Python Full Stack Developer Intern at AICTE" class="w-full h-56 object-contain rounded border-4 border-gradient mb-4">
+            <h3 class="text-xl font-cursive font-bold mb-2">Python Full Stack Developer Intern 🌐</h3>
+            <p class="text-gray-600 dark:text-gray-300 font-semibold mb-2">AICTE Internship | Duration: [Add your internship month & year]</p>
+            <p class="text-gray-600 dark:text-gray-300 font-semibold mb-2">Role: Full Stack Web Developer</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">Completed a full-stack development internship where I built end-to-end web applications using Python for backend and HTML, CSS, JavaScript for frontend. 💻</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Learned frontend development with responsive design.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Built CRUD applications using Flask, and integrated MongoDB as a backend database.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Developed mini projects showcasing both client-side and server-side logic.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm font-bold">Skills Gained: Python, Flask, HTML, CSS, JS, MongoDB, Web Hosting</p>
+          </div>
+        </div>
+        <div class="intern-card w-full bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-gray-800 rounded-xl shadow-lg p-6 hover:flip-and-reveal transition-transform duration-500" data-aos="fade-up" data-aos-delay="600" data-aos-easing="ease-in-out-back">
+          <div class="p-6">
+            <img src="images/intern5.jpg" alt="Employment Skills Intern at APSSDC" class="w-full h-56 object-contain rounded border-4 border-gradient mb-4">
+            <h3 class="text-xl font-cursive font-bold mb-2">Employment Skills Intern 💼</h3>
+            <p class="text-gray-600 dark:text-gray-300 font-semibold mb-2">APSSDC | Duration: [Add your internship month & year]</p>
+            <p class="text-gray-600 dark:text-gray-300 font-semibold mb-2">Role: Soft Skills Intern</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">Attended the Employment Readiness Program conducted by APSSDC aimed at developing interview skills, resume building, communication, and problem-solving abilities. 🌟</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Improved verbal and non-verbal communication.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Learned corporate etiquette, group discussion techniques, and mock interview strategies.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Enhanced confidence for placement opportunities.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm font-bold">Skills Gained: Communication, Resume Building, Presentation, Interview Skills</p>
+          </div>
+        </div>
+        <div class="intern-card w-full bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-gray-800 rounded-xl shadow-lg p-6 hover:flip-and-reveal transition-transform duration-500" data-aos="fade-up" data-aos-delay="700" data-aos-easing="ease-in-out-back">
+          <div class="p-6">
+            <img src="images/intern6.jpg" alt="Data Science Master Virtual Internship at AICTE & Altair" class="w-full h-56 object-contain rounded border-4 border-gradient mb-4">
+            <h3 class="text-xl font-cursive font-bold mb-2">Data Science Master Virtual Internship 📊</h3>
+            <p class="text-gray-600 dark:text-gray-300 font-semibold mb-2">AICTE & EduSkills, supported by Altair | Duration: July–Sept 2024</p>
+            <p class="text-gray-600 dark:text-gray-300 font-semibold mb-2">Role: Data Science Intern</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">Successfully completed a 10-week Data Science Master Virtual Internship offered by AICTE in collaboration with Altair and EduSkills. This internship focused on applying core data science concepts to real-world problems using hands-on training. 🌟</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Covered topics such as data preprocessing, exploratory data analysis (EDA), statistical modeling, machine learning algorithms, and project implementation.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Worked with Python-based libraries like pandas, NumPy, Matplotlib, and scikit-learn.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm mb-2">✅ Completed assessments and tasks aligned with industry-level expectations.</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm font-bold">Skills Gained: Python for Data Science, EDA, Machine Learning, Real-world Data Handling, Statistical Thinking</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="py-20 bg-gray-200 dark:bg-gray-800">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-cursive font-bold mb-10" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out-back">Certifications 🏆</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="cert-card w-full bg-white dark:bg-gray-900 rounded-lg shadow-md hover:zoom-and-glow transition-transform duration-500" data-aos="slide-left" data-aos-delay="200" data-aos-easing="ease-in-out-back">
+          <div class="p-6">
+            <img src="images/cert1.jpg" alt="FMML - Foundations of Modern Machine Learning Certificate" class="w-full h-56 object-contain rounded border-4 border-gradient mb-4">
+            <h3 class="text-xl font-cursive font-bold mb-2">FMML - Foundations of Modern Machine Learning 🧠</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-2">Institution: IIT Hyderabad 🏫</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm">Completed an internship-based certification under IIT Hyderabad professors. Gained practical knowledge in ML concepts like regression, classification, and model evaluation. Worked on sentiment analysis using NLP. 📈</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm font-bold">Skills Gained: Supervised Learning, Model Evaluation, Python for ML, Sentiment Analysis</p>
+          </div>
+        </div>
+        <div class="cert-card w-full bg-white dark:bg-gray-900 rounded-lg shadow-md hover:zoom-and-glow transition-transform duration-500" data-aos="slide-left" data-aos-delay="300" data-aos-easing="ease-in-out-back">
+          <div class="p-6">
+            <img src="images/cert2.jpg" alt="TechSaksham - AI & Emerging Technologies Certificate" class="w-full h-56 object-contain rounded border-4 border-gradient mb-4">
+            <h3 class="text-xl font-cursive font-bold mb-2">TechSaksham - AI & Emerging Technologies 👩‍💻</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-2">Organization: Edunet Foundation (Powered by Microsoft & SAP) 💼</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm">Participated in a skill-building initiative for women in tech. Learned AI, ML, Cloud Computing, and Web Development through real-world projects and expert sessions. 🌟</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm font-bold">Skills Gained: AI Concepts, Web App Development, Cloud Tools, Project Building</p>
+          </div>
+        </div>
+        <div class="cert-card w-full bg-white dark:bg-gray-900 rounded-lg shadow-md hover:zoom-and-glow transition-transform duration-500" data-aos="slide-left" data-aos-delay="500" data-aos-easing="ease-in-out-back">
+          <div class="p-6">
+            <img src="images/cert3.jpg" alt="Foundations of Artificial Intelligence Certificate" class="w-full h-56 object-contain rounded border-4 border-gradient mb-4">
+            <h3 class="text-xl font-cursive font-bold mb-2">Foundations of Artificial Intelligence 🤖</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-2">Company: Infosys Springboard 💡</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm">Covered AI basics like intelligent agents, search algorithms, and applications. Designed small intelligent programs using Python. 🧠</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm font-bold">Skills Gained: AI Concepts, Search Techniques, Python Programming, Applications of AI</p>
+          </div>
+        </div>
+        <div class="cert-card w-full bg-white dark:bg-gray-900 rounded-lg shadow-md hover:zoom-and-glow transition-transform duration-500" data-aos="slide-left" data-aos-delay="600" data-aos-easing="ease-in-out-back">
+          <div class="p-6">
+            <img src="images/cert4.jpg" alt="Foundations of Data Science (Infosys) Certificate" class="w-full h-56 object-contain rounded border-4 border-gradient mb-4">
+            <h3 class="text-xl font-cursive font-bold mb-2">Foundations of Data Science 📈</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-2">Company: Infosys Springboard 💡</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm">Introduced to the data science life cycle, data collection, and statistical analysis. Learned how data solves real-world problems. 📊</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm font-bold">Skills Gained: Data Science Workflow, Data Gathering, Intro to Machine Learning</p>
+          </div>
+        </div>
+        <div class="cert-card w-full bg-white dark:bg-gray-900 rounded-lg shadow-md hover:zoom-and-glow transition-transform duration-500" data-aos="slide-left" data-aos-delay="700" data-aos-easing="ease-in-out-back">
+          <div class="p-6">
+            <img src="images/cert5.jpg" alt="IBM – Machine Learning with Python Certificate" class="w-full h-56 object-contain rounded border-4 border-gradient mb-4">
+            <h3 class="text-xl font-cursive font-bold mb-2">IBM – Machine Learning with Python 📜</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-2">Platform: edX | Issued By: IBM | Date: June 9, 2024 🎓</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm">Successfully completed a practical, beginner-friendly course on Machine Learning by IBM. Covered core ML concepts like supervised and unsupervised learning, model evaluation, and workflows using Python, Scikit-learn, and Pandas. 🧠</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm font-bold">Skills Gained: Machine Learning, Python, Data Preprocessing, Model Training, Evaluation</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm">Certificate ID: c6cd9603658c4d8fb71da8203ee6c596</p>
+          </div>
+        </div>
+        <div class="cert-card w-full bg-white dark:bg-gray-900 rounded-lg shadow-md hover:zoom-and-glow transition-transform duration-500" data-aos="slide-left" data-aos-delay="800" data-aos-easing="ease-in-out-back">
+          <div class="p-6">
+            <img src="images/cert6.jpg" alt="Java Programming Fundamentals Certificate" class="w-full h-56 object-contain rounded border-4 border-gradient mb-4">
+            <h3 class="text-xl font-cursive font-bold mb-2">Java Programming Fundamentals ☕</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-2">Platform: edX | Issued By: GalileoX, Universidad Galileo | Date: June 11, 2024 🎓</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm">Gained foundational knowledge in Java programming, covering OOP, conditionals, loops, arrays, and class structures. Built a strong base in Java syntax and logic-building for software development. 💻</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm font-bold">Skills Gained: Java Basics, OOP Concepts, Loops & Arrays, Problem Solving in Java</p>
+            <p class="text-gray-600 dark:text-gray-300 text-sm">Certificate ID: 50455f33f67a400498b922fe8a04539c</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-200 dark:bg-gray-800">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-cursive font-bold mb-10" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out-back">Contact Me 📬</h2>
+      <form action="https://formspree.io/f/xpzvkylo" method="POST" class="max-w-lg mx-auto" data-aos="slide-up" data-aos-delay="200" data-aos-easing="ease-in-out-back">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full p-4 mb-4 rounded-lg bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-blue-600 transform transition duration-300 hover:shake">
+        <input type="email" name="email" placeholder="Your Email" required class="w-full p-4 mb-4 rounded-lg bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-blue-600 transform transition duration-300 hover:shake">
+        <textarea name="message" placeholder="Your Message" class="w-full p-4 mb-4 rounded-lg bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-blue-600 transform transition duration-300 hover:shake"></textarea>
+        <button type="submit" class="bg-blue-300 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition transform hover:scale-105">Send Message 🚀</button>
+      </form>
+      <div class="mt-10 flex justify-center space-x-6" data-aos="slide-up" data-aos-delay="400" data-aos-easing="ease-in-out-back">
+        <a href="mailto:srilunagulapalli396@gmail.com" title="Email" class="text-2xl hover:text-blue-600 dark:hover:text-blue-400 transform transition duration-300 hover:scale-125"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+919391207206" title="Phone" class="text-2xl hover:text-blue-600 dark:hover:text-blue-400 transform transition duration-300 hover:scale-125"><i class="fas fa-phone"></i></a>
+        <a href="https://github.com/srilu396" title="GitHub" class="text-2xl hover:text-blue-600 dark:hover:text-blue-400 transform transition duration-300 hover:scale-125"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/sri-vijaya-lakshmi-nagulapalli-15a63a288/" title="LinkedIn" class="text-2xl hover:text-blue-600 dark:hover:text-blue-400 transform transition duration-300 hover:scale-125"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="mt-6" data-aos="slide-up" data-aos-delay="600" data-aos-easing="ease-in-out-back">
+        <a href="resume.pdf" target="_blank" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition transform hover:scale-105">Download Resume 📄</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 bg-gray-900 text-white text-center">
+    <p class="font-cursive">© 2025 Nagulapalli Sri Vijaya Lakshmi. All rights reserved. 🌟</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
